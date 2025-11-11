@@ -12,6 +12,7 @@ import ManpowerSolutions from "./pages/experience/Manpower";
 import CSR from "./pages/experience/CSR";
 import Consulting from "./pages/experience/Consulting";
 import ITSolutions from "./pages/experience/ITSolutions";
+import CorporateTrainings from "./pages/experience/CorporateTrainings";
 import Supply from "./pages/experience/Supply";
 import Career from "./pages/Career";
 import JobDetail from "./pages/JobDetail";
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/experience/csr" element={<CSR />} />
           <Route path="/experience/consulting" element={<Consulting />} />
           <Route path="/experience/it-solutions" element={<ITSolutions />} />
+          <Route path="/experience/corporate-trainings" element={<CorporateTrainings />} />
           <Route path="/experience/supply" element={<Supply />} />
           <Route path="/career" element={<Career />} />
           <Route path="/career/:jobId" element={<JobDetail />} />

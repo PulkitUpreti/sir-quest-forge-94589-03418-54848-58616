@@ -41,7 +41,7 @@ const Home = () => {
       icon: TrendingUp,
       title: "Corporate Trainings",
       description: "Cutting-edge technology solutions tailored to drive digital transformation and efficiency.",
-      link: "/experience/it-solutions",
+      link: "/experience/corporate-trainings",
     },
   ];
 
