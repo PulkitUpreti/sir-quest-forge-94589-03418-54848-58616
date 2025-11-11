@@ -203,9 +203,9 @@ const Home = () => {
               { name: "Google Partner", logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" },
               { name: "HP", logo: "https://upload.wikimedia.org/wikipedia/commons/a/ad/HP_logo_2012.svg" },
               { name: "Acer", logo: "https://upload.wikimedia.org/wikipedia/commons/0/00/Acer_2011.svg" },
-              { name: "Canon", logo: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Canon_wordmark.svg" },
+              { name: "Intel", logo: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Intel_logo_%282006-2020%29.svg" },
               { name: "Dell", logo: "https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg" },
-              { name: "Lenovo", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Lenovo_logo_2015.svg" },
+              { name: "Cisco", logo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" },
               { name: "IBM", logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
             ].map((client, index) => (
               <div
