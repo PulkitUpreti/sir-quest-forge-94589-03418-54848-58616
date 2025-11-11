@@ -17,17 +17,22 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    --primary: 215 60% 16%;
+    --primary: 215 60% 14%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 215 30% 92%;
-    --secondary-foreground: 215 60% 16%;
+    --secondary-foreground: 215 60% 14%;
 
-    --muted: 215 20% 95%;
-    --muted-foreground: 215 15% 45%;
+    --muted: 210 20% 98%;
+    --muted-foreground: 215 16% 35%;
 
-    --accent: 30 95% 55%;
+    --accent: 33 100% 50%;
     --accent-foreground: 0 0% 100%;
+    
+    --navy: 215 60% 14%;
+    --navy-light: 215 40% 25%;
+    --text-grey: 215 16% 35%;
+    --subtitle-grey: 214 32% 91%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -38,10 +43,11 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
     
-    --gradient-hero: linear-gradient(135deg, hsl(215 60% 16%), hsl(215 50% 25%));
+    --gradient-hero: linear-gradient(135deg, hsl(215 60% 14%), hsl(215 40% 25%));
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(215 30% 98%));
-    --shadow-elegant: 0 10px 40px -10px hsl(215 60% 16% / 0.2);
-    --shadow-hover: 0 20px 50px -15px hsl(215 60% 16% / 0.3);
+    --shadow-elegant: 0 10px 40px -10px hsl(215 60% 14% / 0.2);
+    --shadow-hover: 0 20px 50px -15px hsl(215 60% 14% / 0.3);
+    --shadow-soft: 0 4px 20px -2px hsl(215 60% 14% / 0.1);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
