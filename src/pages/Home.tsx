@@ -184,6 +184,55 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Clients Section */}
+      <section className="py-20" style={{ backgroundColor: '#F9FAFB' }}>
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12 animate-fade-in">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Clients
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              We take pride in collaborating with diverse industry leaders and enterprises who trust our technology and services.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            {[
+              { name: "AWS Partner", logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" },
+              { name: "Microsoft Partner", logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" },
+              { name: "Google Partner", logo: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" },
+              { name: "HP", logo: "https://upload.wikimedia.org/wikipedia/commons/a/ad/HP_logo_2012.svg" },
+              { name: "Acer", logo: "https://upload.wikimedia.org/wikipedia/commons/0/00/Acer_2011.svg" },
+              { name: "Canon", logo: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Canon_wordmark.svg" },
+              { name: "Dell", logo: "https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg" },
+              { name: "Lenovo", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Lenovo_logo_2015.svg" },
+              { name: "IBM", logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
+            ].map((client, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-xl p-8 flex items-center justify-center transition-all duration-300 hover:scale-[1.03] animate-fade-in"
+                style={{
+                  boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
+                  animationDelay: `${index * 100}ms`,
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.15)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.08)';
+                }}
+              >
+                <img
+                  src={client.logo}
+                  alt={client.name}
+                  className="max-h-[60px] w-auto object-contain"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-primary to-primary/90 text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
